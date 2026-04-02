@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+#banner {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.asset {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#bg {
+    width: 300px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+}
+
+#green_shape {
+    width: 250px;
+    height: auto;
+    bottom: -20px;
+    left: 25px;
+    z-index: 0;
+}
+
+#mnemonic {
+    width: 50px;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+
+#logo {
+    width: 45px;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+#copy {
+    width: 130px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+/* Elements / string stars */
+.element {
+    top: 0;
+    z-index: 1;
+    width: auto;
+}
+
+#el1 { height: 250px; left: 50px; }
+#el3 { height: 220px; left: 70px; }
+#el4 { height: 250px; left: 75px; }
+#el6 { height: 200px; left: 60px; }
+#el5 { height: 170px; right: 70px; }
+#el7 { height: 200px; right: 60px; }
+
+#podium {
+    width: 250px;
+    bottom: 5px;
+    left: 25px;
+    z-index: 5;
+}
+
+#shadow {
+    width: 150px;
+    bottom: 30px;
+    left: 75px;
+    z-index: 4;
+    opacity: 0.6;
+}
+
+/* products group */
+#milk_left {
+    width: 50px;
+    bottom: 40px;
+    left: 95px;
+    z-index: 6;
+}
+
+#milk_right {
+    width:130px;
+    bottom: 35px;
+    right: 30px;
+    z-index: 6;
+}
+
+#milk_1 {
+    width: 55px;
+    bottom: 30px;
+    left: 120px;
+    z-index: 7;
+}
